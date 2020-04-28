@@ -11,7 +11,7 @@ import {
 const initialData = [
   {
     id: "123",
-    title: "Design",
+    title: "TO DO",
     tasks: [
       {
         id: "11",
@@ -33,7 +33,7 @@ const initialData = [
   },
   {
     id: "234",
-    title: "Todo",
+    title: "In Progress",
     tasks: [
       {
         id: "21",
@@ -51,33 +51,11 @@ const initialData = [
   },
   {
     id: "345",
-    title: "Development",
+    title: "Done",
     tasks: [
       
     ]
-  },
-  {
-    id: "456",
-    title: "QA",
-    tasks: [
-
-    ]
-  },
-  {
-    id: "567",
-    title: "Release ready",
-    tasks: [
-
-    ]
-  },
-  {
-    id: "678",
-    title: "Done",
-    tasks: [
-
-    ]
-  },
-
+  }
 ];
 
 export default function() {
